@@ -1,0 +1,146 @@
+{
+  "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+  "limiar_final": 0.7,
+  "faixa_f1_max": [
+    0.7,
+    0.7
+  ],
+  "percentis": {
+    "p90": 0.4800776839256288,
+    "p95": 0.5495822846889494,
+    "p99": 0.6646435445547112
+  },
+  "distribuicao": {
+    "media": 0.2840363383293152,
+    "mediana": 0.2737869620323181
+  },
+  "metricas_limiar_final": {
+    "precisão": 0.8,
+    "recall": 0.6666666666666666,
+    "F1": 0.7272727272727272,
+    "VP": 4,
+    "FP": 1,
+    "FN": 2
+  },
+  "metricas_085": {
+    "precisão": 1.0,
+    "recall": 0.3333333333333333,
+    "F1": 0.5,
+    "VP": 2,
+    "FP": 0,
+    "FN": 4
+  },
+  "falsos_positivos": [
+    [
+      "M028",
+      "M031"
+    ]
+  ],
+  "falsos_negativos": [
+    [
+      "M008",
+      "M022"
+    ],
+    [
+      "M019",
+      "M038"
+    ]
+  ],
+  "pares_detectados": [
+    {
+      "id_a": "M014",
+      "id_b": "M026",
+      "similaridade": 0.948
+    },
+    {
+      "id_a": "M011",
+      "id_b": "M035",
+      "similaridade": 0.884
+    },
+    {
+      "id_a": "M003",
+      "id_b": "M017",
+      "similaridade": 0.757
+    },
+    {
+      "id_a": "M028",
+      "id_b": "M031",
+      "similaridade": 0.742
+    },
+    {
+      "id_a": "M005",
+      "id_b": "M028",
+      "similaridade": 0.709
+    }
+  ],
+  "comparacao_modelos": [
+    {
+      "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+      "limiar": 0.85,
+      "precisão": 1.0,
+      "recall": 0.333,
+      "F1": 0.5,
+      "VP": 2,
+      "FP": 0,
+      "FN": 4
+    },
+    {
+      "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+      "limiar": 0.7,
+      "precisão": 0.8,
+      "recall": 0.667,
+      "F1": 0.727,
+      "VP": 4,
+      "FP": 1,
+      "FN": 2
+    },
+    {
+      "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+      "limiar": 0.665,
+      "precisão": 0.625,
+      "recall": 0.833,
+      "F1": 0.714,
+      "VP": 5,
+      "FP": 3,
+      "FN": 1
+    },
+    {
+      "modelo": "paraphrase-multilingual-mpnet-base-v2",
+      "limiar": 0.85,
+      "precisão": 1.0,
+      "recall": 0.5,
+      "F1": 0.667,
+      "VP": 3,
+      "FP": 0,
+      "FN": 3
+    },
+    {
+      "modelo": "paraphrase-multilingual-mpnet-base-v2",
+      "limiar": 0.7,
+      "precisão": 0.545,
+      "recall": 1.0,
+      "F1": 0.706,
+      "VP": 6,
+      "FP": 5,
+      "FN": 0
+    },
+    {
+      "modelo": "paraphrase-multilingual-mpnet-base-v2",
+      "limiar": 0.74,
+      "precisão": 0.625,
+      "recall": 0.833,
+      "F1": 0.714,
+      "VP": 5,
+      "FP": 3,
+      "FN": 1
+    }
+  ],
+  "sims_gabarito": {
+    "M003-M017": 0.7573148608207703,
+    "M005-M028": 0.7085105180740356,
+    "M008-M022": 0.6094825863838196,
+    "M011-M035": 0.8839992880821228,
+    "M014-M026": 0.9480540752410889,
+    "M019-M038": 0.6913982033729553
+  }
+}

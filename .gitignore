@@ -1,0 +1,9 @@
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.pyc
+
+# cache de modelos / streamlit
+.cache/
+.streamlit/

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "M001",
+    "data": "2026-06-01",
+    "categoria_oficial": "infraestrutura",
+    "texto": "A rua Coronel Amaral está sem asfalto há meses. Quando chove vira um lamaçal e os carros atolam. Pedimos providência da prefeitura urgentemente."
+  },
+  {
+    "id": "M002",
+    "data": "2026-06-04",
+    "categoria_oficial": "saúde",
+    "texto": "Fui ao hospital municipal com meu filho com febre alta e esperamos mais de seis horas para ser atendidos. Não havia pediatra de plantão."
+  },
+  {
+    "id": "M003",
+    "data": "2026-06-07",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Tem um buraco enorme na Av. Brasil, na altura do número 1200, perto do supermercado. Vários carros já furaram o pneu e uma moto caiu semana passada."
+  },
+  {
+    "id": "M004",
+    "data": "2026-06-10",
+    "categoria_oficial": "meio ambiente",
+    "texto": "O córrego que passa atrás do conjunto Jardim das Flores está cheio de esgoto e o mau cheiro é insuportável, principalmente à noite."
+  },
+  {
+    "id": "M005",
+    "data": "2026-06-13",
+    "categoria_oficial": "segurança",
+    "texto": "A rua onde moro, no bairro São José, está completamente escura porque os postes não acendem. Já tivemos dois assaltos no mês passado por causa disso."
+  },
+  {
+    "id": "M006",
+    "data": "2026-06-16",
+    "categoria_oficial": "saúde",
+    "texto": "Escrevo para relatar uma situação que se repete no posto de saúde do bairro Cruz das Armas. Minha mãe, de 72 anos, é hipertensa e diabética e depende dos remédios de uso contínuo da farmácia básica. Nos últimos três meses, todas as vezes que fomos buscar a medicação faltava pelo menos um item: ora a losartana, ora a metformina, ora a insulina. Os atendentes dizem que o estoque não chega e que devemos voltar em uma semana, mas a situação é sempre a mesma. Ela não tem condições de comprar tudo na farmácia particular e já teve dois episódios de pressão alta por interromper o tratamento. Além disso, a agenda do clínico geral só abre a cada dois meses e as vagas acabam em minutos. Peço que a Secretaria de Saúde verifique o abastecimento da farmácia e a oferta de consultas."
+  },
+  {
+    "id": "M007",
+    "data": "2026-06-19",
+    "categoria_oficial": "educação",
+    "texto": "A creche municipal do bairro Mandacaru está sem merenda desde o início do mês. As crianças ficam o dia todo e só recebem biscoito."
+  },
+  {
+    "id": "M008",
+    "data": "2026-06-22",
+    "categoria_oficial": "saúde",
+    "texto": "O posto de saúde do bairro Geisel está sem médico há duas semanas. Chegamos às 5 da manhã, pegamos ficha e depois avisam que não vai ter atendimento."
+  },
+  {
+    "id": "M009",
+    "data": "2026-06-25",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Estão despejando entulho e lixo de construção no terreno baldio da rua das Acácias. Já virou ponto de lixo e tem rato e escorpião."
+  },
+  {
+    "id": "M010",
+    "data": "2026-06-28",
+    "categoria_oficial": "segurança",
+    "texto": "Os semáforos do cruzamento da Epitácio com a Ruy Carneiro ficam piscando em amarelo depois das 22h e os motoristas não respeitam. Já houve batidas."
+  },
+  {
+    "id": "M011",
+    "data": "2026-07-01",
+    "categoria_oficial": "meio ambiente",
+    "texto": "O caminhão do lixo não passa na rua Padre Meira há dez dias. Os sacos estão acumulados na calçada, com mau cheiro e atraindo cachorros e urubus."
+  },
+  {
+    "id": "M012",
+    "data": "2026-07-04",
+    "categoria_oficial": "infraestrutura",
+    "texto": "A calçada da rua Bancário Sérgio Guerra está toda quebrada. Minha avó usa cadeira de rodas e não consegue passar, precisa ir pela pista."
+  },
+  {
+    "id": "M013",
+    "data": "2026-07-07",
+    "categoria_oficial": "educação",
+    "texto": "A escola municipal João Pessoa está com o teto da quadra caindo. As aulas de educação física foram suspensas e ninguém dá previsão de reforma."
+  },
+  {
+    "id": "M014",
+    "data": "2026-07-10",
+    "categoria_oficial": "educação",
+    "texto": "A turma do 5º ano da escola municipal do bairro Valentina está sem professora de português desde março. Os alunos ficam na biblioteca sem aula."
+  },
+  {
+    "id": "M015",
+    "data": "2026-07-13",
+    "categoria_oficial": "segurança",
+    "texto": "Venho relatar o que acontece diariamente na praça central do bairro Bessa, entre a rua dos Coqueiros e a avenida da praia. Desde o começo do ano um grupo se instalou nos bancos da praça e passa o dia consumindo bebida alcoólica, abordando quem passa para pedir dinheiro e, em alguns casos, ameaçando moradores. As mães que levavam as crianças ao parquinho deixaram de frequentar o local. À noite piora porque metade dos refletores está queimada e a praça fica escura. Já registramos boletim de ocorrência duas vezes e ligamos para a Guarda Municipal, mas a viatura passa, o grupo se dispersa e volta quinze minutos depois. Os comerciantes já fecham mais cedo. Solicitamos ronda fixa da Guarda à noite, conserto da iluminação e instalação de câmeras de monitoramento na praça."
+  },
+  {
+    "id": "M016",
+    "data": "2026-07-16",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Uma árvore de grande porte na rua Silvino Chaves está com o tronco rachado e ameaça cair sobre a rede elétrica e as casas. Já solicitamos poda há dois meses."
+  },
+  {
+    "id": "M017",
+    "data": "2026-07-19",
+    "categoria_oficial": "infraestrutura",
+    "texto": "O asfalto da avenida principal está todo esburacado, principalmente na Av. Brasil perto do mercado. Os buracos estão danificando os carros e causando acidentes de moto."
+  },
+  {
+    "id": "M018",
+    "data": "2026-07-22",
+    "categoria_oficial": "saúde",
+    "texto": "Liguei para o SAMU quando meu pai passou mal e a ambulância demorou mais de uma hora para chegar. Ele teve um AVC e a demora pode ter piorado o quadro."
+  },
+  {
+    "id": "M019",
+    "data": "2026-07-25",
+    "categoria_oficial": "segurança",
+    "texto": "Fui assaltada no ponto de ônibus da avenida Pedro II, em frente à farmácia, por volta das 19h. Dois homens em uma moto levaram meu celular. É o terceiro caso ali este mês."
+  },
+  {
+    "id": "M020",
+    "data": "2026-07-28",
+    "categoria_oficial": "educação",
+    "texto": "O ônibus escolar que leva as crianças da zona rural para a escola do distrito está quebrado há três semanas e ninguém providenciou substituto."
+  },
+  {
+    "id": "M021",
+    "data": "2026-07-31",
+    "categoria_oficial": "infraestrutura",
+    "texto": "A ponte de madeira sobre o riacho na comunidade do Roger está com tábuas soltas e podres. As crianças passam por ali todo dia para ir à escola."
+  },
+  {
+    "id": "M022",
+    "data": "2026-08-03",
+    "categoria_oficial": "saúde",
+    "texto": "Falta atendimento no PSF do Geisel. Faz quinze dias que nenhum profissional aparece na unidade; a gente madruga na fila, pega senha e volta pra casa sem consulta."
+  },
+  {
+    "id": "M023",
+    "data": "2026-08-06",
+    "categoria_oficial": "meio ambiente",
+    "texto": "A queima de lixo no quintal de uma casa na rua Josefa Taveira acontece toda tarde. A fumaça entra nas casas vizinhas e minha filha tem asma."
+  },
+  {
+    "id": "M024",
+    "data": "2026-08-09",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Registro uma reclamação sobre a drenagem do bairro Bancários, nas ruas em torno da praça da Paz. Toda vez que chove mais forte as galerias pluviais não dão conta e a água sobe rápido, invadindo garagens e casas térreas. Na última chuva, em agosto, a água chegou a quase meio metro dentro da minha casa e perdi geladeira, sofá e colchões. Os bueiros estão entupidos com lixo e areia e não vejo limpeza há mais de um ano. A obra de ampliação da galeria iniciada no ano passado foi abandonada e deixou valas abertas na rua, que acumulam água e viram criadouro de mosquito. Peço a limpeza urgente dos bueiros e bocas de lobo, a retomada da obra e um plano de contingência para o período chuvoso, porque o fim do ano se aproxima e o problema só piora."
+  },
+  {
+    "id": "M025",
+    "data": "2026-08-12",
+    "categoria_oficial": "saúde",
+    "texto": "A UPA do Oitizeiro está sem aparelho de raio-x funcionando. Fui encaminhado para outra unidade do outro lado da cidade com o braço quebrado."
+  },
+  {
+    "id": "M026",
+    "data": "2026-08-15",
+    "categoria_oficial": "educação",
+    "texto": "Os alunos do quinto ano da escola do Valentina estão há meses sem aula de português porque não tem professor. Os filhos da gente ficam parados na biblioteca."
+  },
+  {
+    "id": "M027",
+    "data": "2026-08-18",
+    "categoria_oficial": "infraestrutura",
+    "texto": "A rotatória da entrada do bairro Altiplano está sem sinalização e sem faixa de pedestre. Atravessar ali é muito perigoso, ainda mais para idosos."
+  },
+  {
+    "id": "M028",
+    "data": "2026-08-21",
+    "categoria_oficial": "segurança",
+    "texto": "Iluminação pública sem funcionar em toda a rua Manoel Deodato, no São José. Está escuro demais à noite e os moradores têm medo de sair, já ocorreram assaltos."
+  },
+  {
+    "id": "M029",
+    "data": "2026-08-24",
+    "categoria_oficial": "meio ambiente",
+    "texto": "O parque Sólon de Lucena está com os lagos sujos, cheios de lixo e algas. Os peixes estão morrendo e o cheiro está forte."
+  },
+  {
+    "id": "M030",
+    "data": "2026-08-27",
+    "categoria_oficial": "educação",
+    "texto": "A biblioteca da escola municipal do bairro Cristo Redentor está fechada há um semestre porque não há funcionário para atender. Os livros estão mofando."
+  },
+  {
+    "id": "M031",
+    "data": "2026-08-30",
+    "categoria_oficial": "infraestrutura",
+    "texto": "A lâmpada do poste da praça do bairro Torre está queimada há mais de um mês. A praça fica toda escura e as pessoas pararam de frequentar à noite."
+  },
+  {
+    "id": "M032",
+    "data": "2026-06-02",
+    "categoria_oficial": "saúde",
+    "texto": "Marquei consulta com cardiologista pelo SUS em fevereiro e só consegui vaga para novembro. Nove meses de espera para uma consulta é um absurdo."
+  },
+  {
+    "id": "M033",
+    "data": "2026-06-05",
+    "categoria_oficial": "educação",
+    "texto": "Sou mãe de dois alunos da Escola Municipal Frei Damião, no bairro Funcionários, e quero registrar a situação precária da escola. Os banheiros dos alunos estão interditados desde o meio do ano porque o encanamento estourou, e as crianças usam o banheiro dos professores em revezamento, gerando filas enormes; muitas evitam beber água para não precisar ir. Os ventiladores não funcionam e, com calor de quase 35 graus, os alunos ficam sonolentos e passam mal. Faltam carteiras, então alguns assistem aula em pé ou dividindo cadeira. A quadra não tem cobertura e a educação física acontece sob sol forte ao meio-dia. A direção sempre diz que o pedido foi encaminhado à Secretaria de Educação, mas nada muda. Pedimos vistoria e um cronograma real de reparos, começando pelos banheiros e pela ventilação."
+  },
+  {
+    "id": "M034",
+    "data": "2026-06-08",
+    "categoria_oficial": "segurança",
+    "texto": "Motos fazem racha na avenida Beira Rio todas as sextas-feiras à noite. O barulho é ensurdecedor e já teve acidente com pedestre."
+  },
+  {
+    "id": "M035",
+    "data": "2026-06-11",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Coleta de lixo não está acontecendo na rua Padre Meira. Faz quase duas semanas que o caminhão não aparece e o lixo está acumulado nas calçadas, com cheiro horrível e animais mexendo."
+  },
+  {
+    "id": "M036",
+    "data": "2026-06-14",
+    "categoria_oficial": "infraestrutura",
+    "texto": "O abastecimento de água no bairro Colinas do Sul falha toda semana. Ficamos de quinta a domingo sem água na torneira e a caixa não dá conta."
+  },
+  {
+    "id": "M037",
+    "data": "2026-06-17",
+    "categoria_oficial": "saúde",
+    "texto": "O agente de saúde não visita nossa rua no bairro Alto do Mateus há meses. Tem caso de dengue na vizinhança e ninguém apareceu para orientar."
+  },
+  {
+    "id": "M038",
+    "data": "2026-06-20",
+    "categoria_oficial": "segurança",
+    "texto": "Roubos frequentes na parada de ônibus da Pedro II perto da farmácia, sempre no fim da tarde. Bandidos de moto levam celular das pessoas que esperam o ônibus. Precisamos de policiamento."
+  },
+  {
+    "id": "M039",
+    "data": "2026-06-23",
+    "categoria_oficial": "educação",
+    "texto": "Faltam vagas em creche no bairro Grotão. Estou na fila de espera há um ano e meio e preciso trabalhar, não tenho com quem deixar meu filho."
+  },
+  {
+    "id": "M040",
+    "data": "2026-06-26",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Quero denunciar a poluição sonora e ambiental de uma fábrica de blocos de concreto instalada em área residencial no bairro Mangabeira, na rua Doutor José Alves. A fábrica funciona de segunda a sábado desde as seis da manhã, com máquinas que produzem um barulho contínuo insuportável dentro de casa, além do pó de cimento que cobre calçadas e carros e entra pelas janelas. Vários moradores desenvolveram problemas respiratórios e uma vizinha idosa foi internada com crise de bronquite. Os caminhões de blocos estacionam na calçada e já quebraram a tubulação de água da rua duas vezes. A Secretaria de Meio Ambiente disse que a empresa tem licença, mas não acreditamos que ela permita esse nível de barulho e poeira em área residencial. Pedimos fiscalização e medição de ruído."
+  }
+]

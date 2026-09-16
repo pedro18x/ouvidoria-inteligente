@@ -1,0 +1,54 @@
+{
+  "pares": {
+    "M003 × M017": {
+      "BoW": 0.295,
+      "TF-IDF": 0.247,
+      "Emb MiniLM-L12": 0.757,
+      "Emb mpnet-base": 0.842
+    },
+    "M008 × M022": {
+      "BoW": 0.123,
+      "TF-IDF": 0.122,
+      "Emb MiniLM-L12": 0.609,
+      "Emb mpnet-base": 0.734
+    },
+    "M008 × M031": {
+      "BoW": 0.067,
+      "TF-IDF": 0.021,
+      "Emb MiniLM-L12": 0.228,
+      "Emb mpnet-base": 0.388
+    }
+  },
+  "tokens_em_comum": {
+    "M003 × M017": "av, brasil, carros, moto, perto",
+    "M008 × M022": "atendimento, geisel",
+    "M008 × M031": "bairro"
+  },
+  "global": {
+    "BoW": {
+      "sim. intra-categoria": 0.085,
+      "sim. inter-categoria": 0.037,
+      "razão intra/inter": 2.33
+    },
+    "TF-IDF": {
+      "sim. intra-categoria": 0.051,
+      "sim. inter-categoria": 0.017,
+      "razão intra/inter": 2.94
+    },
+    "Emb MiniLM-L12": {
+      "sim. intra-categoria": 0.42899999022483826,
+      "sim. inter-categoria": 0.25200000405311584,
+      "razão intra/inter": 1.7000000476837158
+    },
+    "Emb mpnet-base": {
+      "sim. intra-categoria": 0.5090000033378601,
+      "sim. inter-categoria": 0.33000001311302185,
+      "razão intra/inter": 1.5399999618530273
+    }
+  },
+  "modelos": {
+    "MiniLM-L12": "paraphrase-multilingual-MiniLM-L12-v2",
+    "mpnet-base": "paraphrase-multilingual-mpnet-base-v2"
+  },
+  "vocabulario": 624
+}

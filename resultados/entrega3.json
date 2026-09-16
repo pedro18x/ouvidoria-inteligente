@@ -1,0 +1,115 @@
+{
+  "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+  "max_seq_length": 128,
+  "manifestacoes_longas": [
+    {
+      "id": "M033",
+      "n_chars": 799,
+      "n_tokens": 190
+    },
+    {
+      "id": "M006",
+      "n_chars": 778,
+      "n_tokens": 196
+    },
+    {
+      "id": "M040",
+      "n_chars": 775,
+      "n_tokens": 190
+    },
+    {
+      "id": "M015",
+      "n_chars": 775,
+      "n_tokens": 191
+    },
+    {
+      "id": "M024",
+      "n_chars": 746,
+      "n_tokens": 200
+    }
+  ],
+  "configs": {
+    "A": {
+      "chunk_size": 200,
+      "chunk_overlap": 0
+    },
+    "B": {
+      "chunk_size": 200,
+      "chunk_overlap": 60
+    },
+    "C": {
+      "chunk_size": 350,
+      "chunk_overlap": 80
+    }
+  },
+  "resumo_chunks": {
+    "A": {
+      "n_chunks": 20,
+      "chars_medio": 192.9,
+      "chars_min": 153,
+      "chars_max": 200,
+      "chunks por manifestação": 4.0
+    },
+    "B": {
+      "n_chunks": 29,
+      "chars_medio": 180.3,
+      "chars_min": 68,
+      "chars_max": 200,
+      "chunks por manifestação": 5.8
+    },
+    "C": {
+      "n_chunks": 15,
+      "chars_medio": 308.3,
+      "chars_min": 207,
+      "chars_max": 350,
+      "chunks por manifestação": 3.0
+    }
+  },
+  "coesao": {
+    "A": {
+      "n_chunks": 4.0,
+      "coesão consecutiva": 0.458,
+      "fidelidade média": 0.6919999718666077,
+      "cobertura (melhor chunk)": 0.8870000243186951
+    },
+    "B": {
+      "n_chunks": 5.8,
+      "coesão consecutiva": 0.562,
+      "fidelidade média": 0.6549999713897705,
+      "cobertura (melhor chunk)": 0.8870000243186951
+    },
+    "C": {
+      "n_chunks": 3.0,
+      "coesão consecutiva": 0.582,
+      "fidelidade média": 0.746999979019165,
+      "cobertura (melhor chunk)": 0.9629999995231628
+    }
+  },
+  "silhueta": {
+    "A": 0.19489410519599915,
+    "B": 0.20332346856594086,
+    "C": 0.27274858951568604
+  },
+  "exemplo_id": "M033",
+  "exemplo_chunks": {
+    "A": [
+      "Sou mãe de dois alunos da Escola Municipal Frei Damião, no bairro Funcionários, e quero registrar a situação precária da escola. Os banheiros dos alunos estão interditados desde o meio do ano porque o",
+      "encanamento estourou, e as crianças usam o banheiro dos professores em revezamento, gerando filas enormes; muitas evitam beber água para não precisar ir. Os ventiladores não funcionam e, com calor de",
+      "quase 35 graus, os alunos ficam sonolentos e passam mal. Faltam carteiras, então alguns assistem aula em pé ou dividindo cadeira. A quadra não tem cobertura e a educação física acontece sob sol forte",
+      "ao meio-dia. A direção sempre diz que o pedido foi encaminhado à Secretaria de Educação, mas nada muda. Pedimos vistoria e um cronograma real de reparos, começando pelos banheiros e pela ventilação."
+    ],
+    "B": [
+      "Sou mãe de dois alunos da Escola Municipal Frei Damião, no bairro Funcionários, e quero registrar a situação precária da escola. Os banheiros dos alunos estão interditados desde o meio do ano porque o",
+      "dos alunos estão interditados desde o meio do ano porque o encanamento estourou, e as crianças usam o banheiro dos professores em revezamento, gerando filas enormes; muitas evitam beber água para não",
+      "gerando filas enormes; muitas evitam beber água para não precisar ir. Os ventiladores não funcionam e, com calor de quase 35 graus, os alunos ficam sonolentos e passam mal. Faltam carteiras, então",
+      "ficam sonolentos e passam mal. Faltam carteiras, então alguns assistem aula em pé ou dividindo cadeira. A quadra não tem cobertura e a educação física acontece sob sol forte ao meio-dia. A direção",
+      "física acontece sob sol forte ao meio-dia. A direção sempre diz que o pedido foi encaminhado à Secretaria de Educação, mas nada muda. Pedimos vistoria e um cronograma real de reparos, começando pelos",
+      "vistoria e um cronograma real de reparos, começando pelos banheiros e pela ventilação."
+    ],
+    "C": [
+      "Sou mãe de dois alunos da Escola Municipal Frei Damião, no bairro Funcionários, e quero registrar a situação precária da escola. Os banheiros dos alunos estão interditados desde o meio do ano porque o encanamento estourou, e as crianças usam o banheiro dos professores em revezamento, gerando filas enormes; muitas evitam beber água para não precisar",
+      "revezamento, gerando filas enormes; muitas evitam beber água para não precisar ir. Os ventiladores não funcionam e, com calor de quase 35 graus, os alunos ficam sonolentos e passam mal. Faltam carteiras, então alguns assistem aula em pé ou dividindo cadeira. A quadra não tem cobertura e a educação física acontece sob sol forte ao meio-dia. A",
+      "não tem cobertura e a educação física acontece sob sol forte ao meio-dia. A direção sempre diz que o pedido foi encaminhado à Secretaria de Educação, mas nada muda. Pedimos vistoria e um cronograma real de reparos, começando pelos banheiros e pela ventilação."
+    ]
+  }
+}
