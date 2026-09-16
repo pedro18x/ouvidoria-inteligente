@@ -16,6 +16,7 @@ from langchain_text_splitters import CharacterTextSplitter, RecursiveCharacterTe
 from sentence_transformers import SentenceTransformer
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
+from sklearn.metrics import silhouette_score
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -203,7 +204,6 @@ with aba_espaco:
     st.plotly_chart(fig, width="stretch")
 
     # medida quantitativa de coincidência entre clusters semânticos e categorias oficiais
-    from sklearn.metrics import silhouette_score
     sil = silhouette_score(E, df["categoria_oficial"], metric="cosine")
     st.metric("Silhueta por categoria oficial (espaço de embedding)", f"{sil:.3f}",
               help="Perto de 1: clusters semânticos coincidem com as categorias. Perto de 0: misturados.")

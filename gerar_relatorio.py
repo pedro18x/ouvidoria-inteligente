@@ -5,7 +5,7 @@ Uso:
     python gerar_relatorio.py
 
 Se algum notebook ainda não foi executado, os números correspondentes aparecem como
-"[rodar notebook N]" no PDF. Os valores de BoW e TF-IDF são recalculados aqui mesmo,
+"[nb N]" no PDF. Os valores de BoW e TF-IDF são recalculados aqui mesmo,
 porque não dependem de modelo baixado.
 """
 import json
@@ -184,15 +184,16 @@ fns = ", ".join("×".join(p) for p in (e2 or {}).get("falsos_negativos", [])) or
 faixa = (e2 or {}).get("faixa_f1_max")
 if faixa and abs(faixa[0] - faixa[1]) < 1e-9:
     escolha = (f"O F1 máximo ({v(m, 'F1', fmt='{:.2f}')}) ocorre em um único ponto da grade, {faixa[1]:.2f}, então a regra de "
-               "desempate que adotei (preferir o maior limiar entre os empatados) não chegou a ser acionada")
+               "desempate que adotei (preferir o maior limiar) não chegou a ser acionada")
 elif faixa:
     escolha = f"Escolhi o maior limiar dentro da faixa de F1 máximo ({faixa[0]:.2f} a {faixa[1]:.2f})"
 else:
     escolha = "Escolhi o maior limiar dentro da faixa de F1 máximo ([nb 2])"
 story += [P(
-    f"<b>Justificativa do limiar.</b> {escolha}. A preferência pelo limiar mais alto, em caso de empate, é por ser a opção mais "
-    "conservadora: para a Ouvidoria, fundir indevidamente duas manifestações diferentes pode deixar um cidadão sem resposta, "
-    "enquanto uma duplicata não detectada custa apenas retrabalho. O valor 0,85 do enunciado é comparado na tabela: com ele o "
+    f"<b>Justificativa do limiar.</b> {escolha}. O critério de desempate vem do custo de cada erro: para a Ouvidoria, fundir "
+    "indevidamente duas manifestações diferentes pode deixar um cidadão sem resposta, enquanto uma duplicata não detectada "
+    "custa apenas retrabalho, então entre limiares equivalentes o mais alto é o preferível. O valor 0,85 do enunciado é "
+    "comparado na tabela: com ele o "
     f"MiniLM detecta só {v(m85, 'VP', fmt='{}', falta='[nb 2]')} dos 6 pares do gabarito (recall {v(m85, 'recall', fmt='{:.2f}', falta='[nb 2]')}), "
     "sem falsos positivos, o que é restritivo demais para a escala de similaridade deste modelo. "
     "Também avaliei o limiar dinâmico por percentil (dica do enunciado): o p90 pressupõe que 10% dos "
